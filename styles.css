@@ -1,0 +1,236 @@
+/* Stylesheet for Showroom Employee Dashboard */
+
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-out a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sign-out a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Banner Section Styles */
+.banner {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Quick Access Links Styles */
+.quick-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.link {
+    text-align: center;
+}
+
+.link a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Notifications Styles */
+.notifications {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.notifications ul {
+    list-style-type: none;
+}
+
+.notifications a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Dashboard Section Styles */
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Quick Actions Section Styles */
+.quick-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quick-actions button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quick-actions button:hover {
+    background-color: #444;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.legal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.legal a:hover {
+    text-decoration: underline;
+}
+/* Stylesheet for Registration Page */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+
+.login-link {
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #666;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+.register-body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 245, 245, 0.5); /* Adjust the opacity as needed */
+    background-image: url("images/road.jpg"); /* Replace 'road.jpg' with the path to your road texture image */
+    background-size: cover;
+    background-position: center;
+    
+}
